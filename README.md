@@ -6,7 +6,7 @@ The test project consists of:
   4. Shopping list feature file
   
  - Page objects contain the components, methods and locators associated with each of the pages of the app. Created a class called `BasePage.java`. All page object classes will extend the BasePage, thus inheriting all the base methods. The inheriting classes are `MyShoppingListPage.java` and `OIShoppingListMenuPage.java`.
- - `StepDefinitions.java` contain the defnition of all the steps to execute in the feature file
+ - `StepDefinitions.java` contains the definition of all the steps to execute in the feature file.
  - The class `RunCukesTest.java` allows Maven to hook into Cucumber and ensure that our Cucumber scenarios can be run as part of a Maven build process.
  - The `Shoppinglist.feature` file contains the test scenarios to run.
  
