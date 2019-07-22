@@ -10,6 +10,9 @@ The test project consists of:
  - The class `RunCukesTest.java` allows Maven to hook into Cucumber and ensure that our Cucumber scenarios can be run as part of a Maven build process.
  - The `Shoppinglist.feature` file contains the test scenarios to run.
  
- Can run tests in two ways:
-  - Run the tests from the project root (where pom.xml resides) using command `mvn clean test`
-  - Run the tests from `Shoppinglist.feature` file in Eclipse. Head over to the feature file and right click on the first line of the feature and select `Run as > 1 Cucumber Feature`
+To run tests:
+  - Connect device and on terminal give the command `adb devices` to ensure device is detected.
+  - Start the Appium server by running the following command `appium`.
+  - Then can run the tests in two ways:
+      - From the project root (where pom.xml resides) using command `mvn clean test`
+      - From `Shoppinglist.feature` file in Eclipse. Head over to the feature file and right click on the first line of the     feature and select `Run as > 1 Cucumber Feature`.
